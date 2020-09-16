@@ -1,0 +1,2028 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="ft" filename="VAHO2006 Coordination Model.nwd" filepath="L:\Job Folder\VAHO2006\Navis Models\Active Coordination Model">
+  <selectionsets>
+    <viewfolder name="Item Sets " guid="70a1aed1-4236-4b3d-a0c1-e275fd7da91c">
+      <selectionset name="Arch Roof Drains" guid="a2a077dd-a750-4497-9c43-0b77416ac1ba">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Type">Type</name>
+              </property>
+              <value>
+                <data type="wstring">Plumbing Fixtures: arc-plumb-roof drain: 15" Strainer - 4" Drain</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Type">Type</name>
+              </property>
+              <value>
+                <data type="wstring">Plumbing Fixtures: arc-plumb-roof drain: 15" Strainer - 8" Drain-FD</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Type">Type</name>
+              </property>
+              <value>
+                <data type="wstring">Plumbing Fixtures: arc-plumb-roof drain: 15" Strainer - 8" Drain-OD</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Type">Type</name>
+              </property>
+              <value>
+                <data type="wstring">Plumbing Fixtures: arc-plumb-roof drain: 15" Strainer - 8" Drain-RD</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset xmlns="third createnode var">TESTTESTTESTTEST</selectionset>
+      <selectionset name="Casework" guid="500fed61-cbc6-473e-bf86-3daa17f7e7fe">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Casework</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Ceilings" guid="7bac402b-f89e-42cb-8144-0e65d141acf8">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Ceilings</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Columns" guid="75b6fa60-3cf8-4b66-8aa2-f51c14c13ae7">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Columns</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Curtain Panels" guid="34744bc8-ea32-48cb-a62d-dca7b1578f71">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Curtain Panels</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Curtain Wall Mullions" guid="f52ba2ad-d593-4b6d-8a80-a5e85fce924b">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Curtain Wall Mullions</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Doors" guid="a67d87b7-09e3-4e79-ab2b-ee5740be14a4">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Doors</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Floors" guid="63ee67d6-c113-4f16-b0ab-4fe2c8905db0">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Floors</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Furniture" guid="4758d7c2-de08-442c-9652-aae369ddb954">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Furniture</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Furniture Systems" guid="369dbcc7-511b-424d-bed6-8dc3faf71d5c">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Furniture Systems</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Generic Models" guid="c2e8c7fc-2e94-4fe7-892c-1ec57ecf4ab2">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">Generic Models</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="plumb-toilet-floor mount" guid="f007c0f5-b409-4213-bec3-503b7bd35025">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">plumb-toilet-floor mount</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Mechanical Equipment" guid="94199778-fc57-4999-8e99-ec84ae832103">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Mechanical Equipment</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Pipe Accessories" guid="20370a9b-279e-45fb-88af-b754785a8dbb">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Pipe Accessories</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Pipe Fittings" guid="30c6dd8b-e138-4a8b-970d-fb991aca1d02">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Pipe Fittings</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Pipe Insulations" guid="ee242856-e713-4919-b9f7-756babcee96f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Pipe Insulations</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Pipes" guid="d41ee198-8370-4db8-8941-87e828bea1a8">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Pipes</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Plumbing Fixtures" guid="43cfd043-7f1f-4b5e-b9f5-168fab5a22a1">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Plumbing Fixtures</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Roofs" guid="b0ec47eb-a407-4ec0-b25d-0f95cd5b25db">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Roofs</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Rooms" guid="23cb31de-3a93-4060-9836-5579f2d83732">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Rooms</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Site" guid="cb1e1723-1b6b-4d21-b9d5-df90790dffda">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Site</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Specialty Equipment" guid="b5ee8109-abed-4418-9217-fd7aa851501b">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">Specialty Equipment</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Stairs" guid="20c8b5bf-2290-4995-bd1a-89ebc536ce70">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Stairs</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Structural Columns" guid="e9ec35ed-734e-46c1-92c4-fc48e57ccb31">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Structural Columns</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Structural Foundations" guid="305b0151-d0da-42a1-ad6d-207cc4fd191e">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Structural Foundations</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Structural Framing" guid="d755b884-3cda-4c01-a024-59c33ff7e038">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Structural Framing</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Structural Rebar" guid="06509993-5225-4a4e-82f1-60e915a6269c">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Structural Rebar</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Supports" guid="5b37657e-e170-4d67-8b32-9d2e3adc9823">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Supports</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Top Rails" guid="4987e6e0-6f2e-453b-9a0b-760a691a3e87">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Top Rails</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Wall Sweeps" guid="2f236448-72c7-451b-8027-7624b740eefb">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Wall Sweeps</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Walls" guid="039df359-2240-4911-9d83-2cbd051f5962">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Walls</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Windows" guid="8b4b8655-08aa-41ca-90fe-6625a8a446e0">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Category">Category</name>
+              </property>
+              <value>
+                <data type="wstring">Windows</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+    </viewfolder>
+    <selectionset name="Pipe 20' and less " guid="36030f32-0f89-4630-abff-245e8467a48c">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="greater_equal" flags="10">
+            <category>
+              <name internal="LcRevitData_Element">Element</name>
+            </category>
+            <property>
+              <name internal="lcldrevit_parameter_-1004005">Length</name>
+            </property>
+            <value>
+              <data type="linear">20.000000</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Pipe Greater than 20'" guid="5e826c75-8eb7-438f-8d59-26662ae6d6a4">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="greater_than" flags="10">
+            <category>
+              <name internal="LcRevitData_Element">Element</name>
+            </category>
+            <property>
+              <name internal="lcldrevit_parameter_-1004005">Length</name>
+            </property>
+            <value>
+              <data type="linear">20.000000</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="Pipe Greater than 21' " guid="431de36a-5c2f-4356-ba23-518272deaae0">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="greater_than" flags="10">
+            <category>
+              <name internal="LcRevitData_Element">Element</name>
+            </category>
+            <property>
+              <name internal="lcldrevit_parameter_-1004005">Length</name>
+            </property>
+            <value>
+              <data type="linear">21.000000</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <viewfolder name="Armistead Services (Armistead ServicesTest.xml)" guid="7160ef0e-e1b0-4ef1-ba86-66a53bf11a9c">
+      <selectionset name="HE" guid="c5b88a62-e8b4-4c8b-8b9e-36d14aa844e2">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="">Element</name>
+              </category>
+              <property>
+                <name internal="">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HE</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="N2" guid="42ca6f7e-0539-458d-a128-4f14a34dbf1a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="">Element</name>
+              </category>
+              <property>
+                <name internal="">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">N2</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="AMI Hangers " guid="981a1589-5962-45a3-acce-34e527855f65">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">Unistrut Hanger</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">CP CS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="BBD" guid="57bac1aa-3f1c-4990-be3a-3b4801b96a86">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">BBD</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="BFW" guid="ff2dfd63-a1f1-4bf3-aa41-e083af9782c0">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">BBD</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="BSRV" guid="10520c75-82bd-4c8e-bb7e-5ab2cf742a42">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">BSRV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CA" guid="59f591e4-b784-41a8-ab7f-6c5f2a4013d5">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CA</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CBD" guid="a6c0bbef-c786-4f02-99db-5531b9b22826">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CWS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CHEM" guid="f0517530-e1f8-4398-9360-1c69aed7dc13">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CHEM</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CHWR" guid="82a678f3-2e3f-4b3d-9133-490c7c70999a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CHWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CHWS" guid="fc3f679e-5ec5-4720-ab3d-f25bd922133f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CHWS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Concentric Reducer Check" guid="af96f0b8-5468-4347-a83d-fb12ed6f5d07">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="LcRevitPropertyElementFamily">Family</name>
+              </property>
+              <value>
+                <data type="wstring">Concentric</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="COND" guid="979afa86-e276-45d9-a186-ce5b6024c5c5">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">COND</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Connector = Butt Weld/Groove" guid="727b57b2-78e4-4f48-b758-6616ad0c0a13">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_640730">Connector Name1</name>
+              </property>
+              <value>
+                <data type="wstring">ButtWeld Beveled</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_640731">Connector Name2</name>
+              </property>
+              <value>
+                <data type="wstring">Grooved End Male</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_640730">Connector Name1</name>
+              </property>
+              <value>
+                <data type="wstring">Grooved End Male</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_640731">Connector Name2</name>
+              </property>
+              <value>
+                <data type="wstring">ButtWeld Beveled</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CWR" guid="24f77059-4ff9-4ce6-9a33-3577d1e23731">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="CWS" guid="0c596a28-edb5-4654-8f36-9d241f673911">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CWS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DCW" guid="a2c3c6a9-36dd-4d86-9cd3-0d6a6e8d0fa7">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">DCW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DHW" guid="6568e725-53a6-4a38-ac6c-65b46933e5c8">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">DHW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DHWR" guid="34874f2d-7458-4b9c-8618-7dd5a3719c62">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">DHWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DR" guid="ef97ab18-7a84-4e12-99c1-1450af1c0739">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">CWS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DTW" guid="e58a7e8e-2356-4c51-bcd2-02d74332f79c">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">DTW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="DTWR" guid="6e345412-050a-43e1-8cac-c897735aa456">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">DTWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="EA" guid="26d1cc64-4e58-4f41-a7ac-6df467475178">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RFGR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="FO" guid="c8c2b3b1-37b3-445a-b556-e55d36527814">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">FOV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="FOR" guid="58d2c60d-a5c3-44de-b47d-c63e3cf1513f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">FOR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="FOS" guid="6778f630-5b20-4a70-9af6-6c906c2aa87b">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">FOS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="FOV" guid="43985cc2-2923-455e-92d7-d6c7fab9edb0">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">FOV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Gauges and Themometers" guid="d8b87c01-7609-4045-a0bd-b1acd1a8200b">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_2372153">Pipe Accessory</name>
+              </property>
+              <value>
+                <data type="wstring">Trerice_Brass_3.52"_30-180 Degree Thermometer_BX9-2-403-6</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_2372153">Pipe Accessory</name>
+              </property>
+              <value>
+                <data type="wstring">Trerice_Brass_3.52"_30-180 Degree Thermometer_BX9-2-403-6</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_2372153">Pipe Accessory</name>
+              </property>
+              <value>
+                <data type="wstring">Trerice AL 600CB Prs Guage 0-100</data>
+              </value>
+            </condition>
+            <condition test="equals" flags="74">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_2372153">Pipe Accessory</name>
+              </property>
+              <value>
+                <data type="wstring">TRerice SS B856-04-05 Thermometer</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="GV" guid="49354e3d-5a5c-4bd8-99a2-7814a1d97e6b">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">GV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="GW" guid="36d07172-cfbc-48c8-b9ef-bdbfd3512d7f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">GW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HHWR" guid="6e370e6f-ac06-42a7-b7a9-d7074fad0a06">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HHWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HHWS" guid="e0fcdca0-5f1d-46bd-a24f-5018e813010a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HHWS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HPC" guid="923a259b-1568-43fc-9e72-d423cbcc9f06">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HPC</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HPR" guid="9d00955e-b75b-494a-868f-516c6177d749">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HPC</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HPS" guid="4f91f416-7eb8-4955-a046-c9f2d1a36317">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">HPS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="IA" guid="ae621e86-303e-4dec-b544-09549c5218ed">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">IA</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="IBD" guid="0ea613ab-34c4-492a-8e01-80e56bde3f55">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">IA</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="LPC" guid="e2ca538b-fe39-4b45-9ec3-d08d848b8644">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">LPC</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="LPS" guid="68b0f0a4-8ae3-42e2-984e-e9a33e74c19f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">LPS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="MUW" guid="89399f64-7ae8-4876-af1a-dc08cbd9b30a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">MUW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="NG" guid="b8950f50-05aa-41bc-afa5-bbb321c26dde">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">NG</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="O2" guid="d87aa83d-15c8-4821-b049-833b1113ddf1">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">O2</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="OA" guid="89db9fcb-1ec6-448b-89f8-db096101b645">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">O2</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PC" guid="8097012e-9474-4e12-bc51-84ee3d5edb59">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PC</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PC BW/Cast" guid="ddcce253-da3a-4a4d-a47c-98279104638e">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PC BW/Cast</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PD" guid="01fda786-1ffd-42e9-94b8-c1a06bf60c1b">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PC</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PDCW" guid="7203e043-7079-420f-8687-8e746270abf9">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PDCW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PDHW" guid="213ccd0f-d029-4a3c-9ec6-fa761dbb4dde">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PDHW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PDHWR" guid="ba8b4db7-84a3-41c7-b38d-2548a825a42f">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PDHWR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="PDSCW" guid="8a8c2781-d9d5-413b-94aa-0d9a122ce52e">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">PDSCW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RA" guid="8c55fbf5-d908-4094-a755-08d46ac36d73">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RFG</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RAWW-BT" guid="490606d3-664a-4963-a05d-9ff4b6e9023c">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RAWW-BT</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RFG" guid="ea7f20cc-7ebe-477c-b208-474918f24631">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RFG</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RFGR" guid="67359d0f-72a6-4afa-b7fe-e51e1d341d9a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RFGR</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RRV" guid="7ceb8bfa-3b07-4ea6-b83f-0fd30af952f1">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RRV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="RW" guid="97ffa0ef-c0b7-480f-8250-167a0e9feb45">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">RRV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="S" guid="54c75e75-8676-4963-836c-de1af1a8b65a">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">S</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SA" guid="36ee2544-7fdc-4aae-b8fb-b0df1599bf39">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">S</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SAN" guid="c72dc2c4-78fe-476e-bf24-eb7cf7d79f34">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SAN</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SAN HS" guid="d218858b-f04a-4c06-aea3-11b21ff69415">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SAN HS</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SANV" guid="c70b04b3-f4fb-414d-b21d-b79b2dbfe7c3">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SANV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SD" guid="6e8a7ca5-e675-499d-9e16-0415a773adf7">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SD</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SOFT-BW" guid="6310cefc-4558-4674-ab6f-46e06108afeb">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SOFT-BW</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SOFTBWSH-SOL" guid="abacadca-507b-4d4d-8030-6a0f3169ceb1">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SOFTBWSH-SOL</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SPD" guid="cac836a4-6663-4a84-8c12-2bd2870578f3">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SPD</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SPOOL POINTS BOX" guid="f0efa773-221a-486e-b2aa-c3badab8b9ec">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Item">Item</name>
+              </category>
+              <property>
+                <name internal="Name">Name</name>
+              </property>
+              <value>
+                <data type="wstring">SPOOL POINTS BOX</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="STRM" guid="4f3a33b1-1947-48d1-b5ce-c8b6922534cc">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">STRM</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SV" guid="237b8d52-46c3-420c-838b-ceb58ccfd56c">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="SW" guid="7dccad6b-a0a7-4ee8-9fb9-a1685ffdbb7d">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SAN</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="VENT" guid="a12e044a-a693-4c68-8658-03f0eecdfbb7">
+        <findspec mode="all" disjoint="1">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="Element">Element</name>
+              </category>
+              <property>
+                <name internal="System Abbreviation">System Abbreviation</name>
+              </property>
+              <value>
+                <data type="wstring">SV</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="Weld Gaps" guid="53a500af-66c1-4cf5-a4e7-b0a48d81cda9">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="equals" flags="10">
+              <category>
+                <name internal="LcRevitData_Element">Element</name>
+              </category>
+              <property>
+                <name internal="lcldrevit_parameter_921194">Pipe Fitting</name>
+              </property>
+              <value>
+                <data type="wstring">Weldbend_CS_Mig Weld Gap 0_125 Std</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+    </viewfolder>
+  </selectionsets>
+</exchange>

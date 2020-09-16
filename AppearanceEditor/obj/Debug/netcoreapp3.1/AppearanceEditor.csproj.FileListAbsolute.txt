@@ -1,0 +1,13 @@
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.exe
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.deps.json
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.runtimeconfig.json
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.runtimeconfig.dev.json
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.dll
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\bin\Debug\netcoreapp3.1\AppearanceEditor.pdb
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.csprojAssemblyReference.cache
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.AssemblyInfoInputs.cache
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.AssemblyInfo.cs
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.csproj.CoreCompileInputs.cache
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.dll
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.pdb
+C:\Users\fdkuenneke\source\repos\AppearanceEditor\AppearanceEditor\obj\Debug\netcoreapp3.1\AppearanceEditor.genruntimeconfig.cache
